@@ -57,7 +57,7 @@ class LikeButton extends React.Component {
                         <tbody>
                         {Object.entries(items).map(_item => (
                             <tr key={_item[0]}>
-                                <td>{_item[1].date}</td>
+                                <td className="date">{_item[1].date}</td>
                                 <td>{_item[1].deathIncrease} </td>
                                 <td> {_item[1].hospitalizedIncrease}</td>
                                 <td> {_item[1].positiveIncrease}</td>
