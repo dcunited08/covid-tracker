@@ -12,7 +12,7 @@ class CovidTrackingRepo {
             })
             .then((rtn) => {
                 return rtn.filter((item) => {
-                    return (item.state == "GA");
+                    return (item.state === "GA");
                 });
             });
     }
@@ -42,7 +42,7 @@ class LikeButton extends React.Component {
         return (
             <div className="App">
                 <header className="App-header">
-                    <h1>Dcunited08 Covid-Tracker</h1>
+                    <h1>Dcunited08 Covid-Tracker for Georgia</h1>
                 </header>
                 <div>
                     <table>
