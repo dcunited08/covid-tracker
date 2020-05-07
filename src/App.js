@@ -66,6 +66,10 @@ class LikeButton extends React.Component {
                         </tbody>
                     </table>
                 </div>
+                <footer>
+                    <a href="https://github.com/dcunited08/covid-tracker">GitHub Repo</a> <br />
+                    <a href="https://covidtracking.com/data/state/georgia">Data provider is Covid Tracking Project</a>
+                </footer>
             </div>
         );
     }
